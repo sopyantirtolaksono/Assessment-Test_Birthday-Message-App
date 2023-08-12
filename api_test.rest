@@ -1,0 +1,35 @@
+# Get all users
+GET http://localhost:5000/api/v1/users
+
+###
+
+# Add new user
+POST http://localhost:5000/api/v1/users
+Content-Type: application/json
+
+{
+    "firstName": "Khoirul",
+    "lastName": "Altakim",
+    "email": "alta@gmail.com",
+    "birthdayDate": "2000-10-11",
+    "location": "Asia/Jakarta"
+}
+
+###
+
+# Delete user by ID
+DELETE http://localhost:5000/api/v1/users/1
+
+###
+
+# Update user by ID
+PUT http://localhost:5000/api/v1/users/1
+Content-Type: application/json
+
+{
+    "firstName": "Muhammad",
+    "lastName": "Yusron",
+    "email": "yusron@gmail.com",
+    "birthdayDate": "2001-08-17",
+    "location": "Australia/Sydney"
+}
