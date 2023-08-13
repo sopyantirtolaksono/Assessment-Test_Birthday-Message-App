@@ -11,7 +11,7 @@ Content-Type: application/json
     "firstName": "Khoirul",
     "lastName": "Altakim",
     "email": "alta@gmail.com",
-    "birthdayDate": "2000-10-11",
+    "birthdayDate": "2000-08-17",
     "location": "Asia/Jakarta"
 }
 
@@ -30,6 +30,6 @@ Content-Type: application/json
     "firstName": "Muhammad",
     "lastName": "Yusron",
     "email": "yusron@gmail.com",
-    "birthdayDate": "2001-08-17",
+    "birthdayDate": "2001-08-18",
     "location": "Australia/Sydney"
 }
