@@ -1,6 +1,4 @@
-# Assessment Test
-
-## Test Case - Birthday Message App
+# Birthday Message App
 
 ### How to setup
 - Clone this repository or download this repo
